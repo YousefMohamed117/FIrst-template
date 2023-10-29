@@ -105,6 +105,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    cursor: pointer;
 }
 
 .header .links .icon span {
@@ -141,7 +142,7 @@ body {
     z-index: 1;
 }
 
-.header .links:hover ul {
+.header .links:hover ul,.header .links ul.open {
     display: block;
 }
 
